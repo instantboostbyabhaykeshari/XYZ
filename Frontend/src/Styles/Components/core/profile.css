@@ -1,0 +1,45 @@
+.profile-container{
+    margin: 1rem 0;
+    width: 100vw;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.profile-image {
+    border-radius: 50%;
+    width: 140px;
+    position: relative;
+}
+
+.profile-image>img {
+    width: 140px;
+    border-radius: 50%;
+}
+
+.profileEditable {
+    position: absolute;
+    bottom: 15px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.profileForm {
+    width: 100vw;
+}
+
+.profileFormDiv {
+    width: 85vw;
+    margin: auto;
+}
+
+.profileUserName {
+    width: 85vw;
+    padding: 11px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+}

@@ -1,0 +1,147 @@
+.myOrder {
+    width: 90vw;
+    margin: 1.5rem auto;
+}
+
+.myOrder>p {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.orderToggle {
+    width: 90vw;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #EEF7EF;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.toggleActive {
+    width: 45vw;
+    height: 50px;
+    background-color: #4FAF5A;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toggleInactive {
+    width: 45vw;
+    height: 50px;
+    background-color: #EEF7EF;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loadingDiv {
+    width: 90vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading {
+    border: 5px solid #EEF7EF;
+    border-top: 5px solid #4FAF5A;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+
+.no-orders {
+    width: 90vw;
+    height: 50vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-list {
+    width: 100vw;
+    margin: 1rem 0 80px 0;
+}
+
+.order-card {
+    width: 100vw;
+    margin: auto;
+    background-color: #EEF7EF;
+}
+
+.orderStatusNumberDetails {
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ordernumber, .orderStatus{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.item-name {
+    width: 50vw;
+    padding-left: 10px;
+}
+
+.item-quantity {
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-price {
+    width: 30vw;
+    display: flex;
+    justify-content: right;
+    padding-right: 10px;
+    align-items: center;
+}
+
+.order-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.order-total {
+    display: flex;
+    padding: 10px 10px;
+    justify-content: space-between;
+}
+
+.line {
+    width: 100vw;
+    height: 20px;
+    background-color: #ffffff;
+}
+
+
+.toggle2 {
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

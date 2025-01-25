@@ -1,0 +1,27 @@
+.search {
+    /* background-color: aqua; */
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchBar {
+    width: 85vw;
+    height: 50px;
+    border-radius: 35.73px;
+    border: 2px solid #D6D6D6;
+    position: relative;
+    padding: 20px;
+}
+
+.searchBar::placeholder {
+    /* padding-left: 5px; */
+    color: #D6D6D6;
+    font-weight: 500;
+}
+
+.maginifyGlass {
+    position: absolute;
+}

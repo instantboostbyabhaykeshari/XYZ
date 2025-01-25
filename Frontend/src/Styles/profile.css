@@ -1,0 +1,76 @@
+.profilePage {
+    /* background-color: #EEF7EF; */
+    height: 100%;
+    margin-bottom: 90px;
+}
+
+.user {
+    width: 100vw;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEF7EF;
+}
+
+.user>img {
+    width: 140px;
+    border-radius: 50%;
+}
+
+.userNameGmail {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userNameGmail>:nth-child(1){
+    text-align: center;
+}
+
+.userList {
+    margin: 20px 0 0 25px;
+    display: flex;
+    gap: 16px;
+}
+
+.userListIcon>div, .userListName>div {
+    height: 60px;
+}
+
+.userListIcon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    color: #4FAF5A;
+}
+
+.userListName {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.logout {
+    margin: 10px 0 0 25px;
+    height: 44px;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: 1px solid #4FAF5A;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    color: #4FAF5A;
+}
+
+.logout:hover {
+    cursor: pointer;
+}
+
+
+

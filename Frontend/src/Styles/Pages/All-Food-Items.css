@@ -1,0 +1,53 @@
+.foodListingDiv {
+    width: 100vw;
+    height: 70px;
+    background-color: #EEF7EF;
+    display: flex;
+    align-items: center;
+}
+
+
+.foodListing {
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    column-gap: 10px;
+    background-color: #EEF7EF;
+}
+
+.active {
+    max-width: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px 6px;
+    background-color: #4FAF5A;
+}
+
+.nonActive {
+    max-width: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px 6px;
+    background-color: #EEF7EF;
+}
+ 
+.noFoodFound {
+    width: 90vw;
+    height: 50vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.noFoodExistForThisCategory {
+    width: 90vw;
+    margin: auto;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

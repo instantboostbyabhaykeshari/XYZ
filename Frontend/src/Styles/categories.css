@@ -1,0 +1,66 @@
+.mid {
+    /* background-color: antiquewhite; */
+    width: 100vw;
+    height: 170px;
+    margin-top: 10px;
+    font-family: "Varela Round", sans-serif;
+}
+
+.topCategories {
+    width: 85vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topCategories>p {
+    color: #C2C2C2;
+}
+
+.top {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+
+.pizza, .burger, .momos, .chow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 8px;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.showCategories {
+    /* background-color: aqua; */
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.first {
+    background-image: url("/images/pizza.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.second {
+    background-image: url("/images/burger.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.third {
+    background-image: url("/images/momos.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.fourth {
+    background-image: url("/images/chow.jpg");
+    background-position: center;
+    background-size: cover;
+}

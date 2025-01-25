@@ -1,0 +1,75 @@
+.logo {
+    /* background-color: antiquewhite; */
+    background-image: url("./images/Food-Fun-Featured photo.jpeg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 260px;
+}
+
+.loginInput {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.phoneNumber, .email {
+    width: 85vw !important;
+    border-color: green !important;
+}
+
+.loginInput>button {
+    background-color: #4FAF5A;
+    color: #EEF7EF;
+    width: 85vw;
+    padding: 14px;
+    margin-top: 12px;
+}
+
+.skip {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 1.2rem;
+    color: #EEF7EF;
+    background-color: #4FAF5A;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-weight: 300;
+}
+
+.skip:hover {
+    cursor: pointer;
+}
+
+.loginImage {
+    width: 100vw;
+    height: 260px;
+    background-image: url("./images/Delivery.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.hungryQuote {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form {
+    width: 90vw;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.form>button {
+    background-color: #4FAF5A;
+    color: #EEF7EF;
+    padding: 10px;
+}
+

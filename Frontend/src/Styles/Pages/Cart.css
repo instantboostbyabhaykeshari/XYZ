@@ -1,0 +1,101 @@
+.cartPage {
+    margin-bottom: 100px;
+}
+
+.cartBackButton {
+    width: 90vw;
+    margin: 2rem auto;
+}
+
+.foodItemInCart {
+    width: 90vw;
+    margin: 3rem auto 4rem auto;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+}
+
+.totalNumberOfFoodItemAndTotalAmount {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.totalItem {
+    padding: 8px 12px;
+    border: 2px solid #4FAF5A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border-radius: 8px;
+}
+
+.cartBorderBottom {
+    width: 90vw;
+    margin: 2rem auto;
+    border: 1px solid gray;
+}
+
+.oneFoodItemTotalAmount {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.deleteItem:hover {
+    cursor: pointer;
+}
+
+.slip {
+    width: 90vw;
+    max-height: 200px;
+    margin: auto;
+    padding: 1rem 0;
+    background-color: #EEF7EF;
+}
+
+.itemTotal, .taxAndcharges {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 10px;
+}
+
+.grandTotal {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+.cartButtonDiv {
+    width: 90vw;
+    margin: 1rem auto;
+}
+
+.cartButton {
+    width: 90vw;
+    background-color: #4FAF5A;
+    color: #EEF7EF;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+}
+
+.yourCartIsEmpty {
+    width: 90vw;
+    height: 35vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+}
