@@ -23,7 +23,7 @@
     "@reduxjs/toolkit": "^2.5.0",
     "axios": "^1.7.9",
     "body-parser": "^1.20.3",
-    "cloudinary": "^2.5.1",
+    "cloudinary": "^1.21.0",
     "concurrently": "^9.1.2",
     "cookie-parse": "^0.4.0",
     "cookie-parser": "^1.4.7",
